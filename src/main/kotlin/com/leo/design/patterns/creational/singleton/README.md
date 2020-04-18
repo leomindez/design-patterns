@@ -18,9 +18,7 @@
 
 | Singleton|
 |-----------------------|
-| -  singleton: Singleton |
-| - Singleton()           |
-| + getInstance(): Singleton|
+| + instance: Singleton|
 
 ## Notes
 
