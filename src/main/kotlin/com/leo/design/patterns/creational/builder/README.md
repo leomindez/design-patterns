@@ -14,16 +14,16 @@
 
 | Query |
 |---|
-| - where: String |
-| - orderBy: String |
-| - select: String |
-
-| Builder |
-|----|
 | + where: String |
 | + orderBy: String |
 | + select: String |
-| + build: Query |
+
+| Builder |
+|----|
+| + where(): String |
+| + orderBy(): String |
+| + select(): String |
+| + build(): Query |
 
 ## Notes
 
