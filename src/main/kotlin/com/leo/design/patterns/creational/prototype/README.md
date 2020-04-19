@@ -30,4 +30,4 @@ Shallow copy implementation is going to return all the same instances which are 
 Deep copy implementation is going to return different instance for each element copied. 
 
 I used my own implementation to clone the object but if you can create a copy from the object
-you can use data class to use copy method which is already implemented. 
+use data class to use copy method which is already implemented. 
