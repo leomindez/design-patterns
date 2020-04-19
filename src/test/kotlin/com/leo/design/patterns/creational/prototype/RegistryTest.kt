@@ -5,23 +5,23 @@ import org.junit.Test
 import kotlin.test.assertNotNull
 
 internal class RegistryTest {
-    lateinit var registry: Registry
+    lateinit var prototypeRegistry: PrototypeRegistry
 
     @Before
     fun setup() {
-        registry = Registry()
+        prototypeRegistry = PrototypeRegistry()
     }
 
     @Test
     fun shouldCreateHammerCopyObject() {
-        val hammer = registry.createItem("Hammer") as? Hammer
+        val hammer = prototypeRegistry.createItem("Hammer") as? Hammer
         hammer?.size = "G"
         assertNotNull(hammer)
     }
 
     @Test
     fun shouldCreateScrewdriverCopyObject() {
-        val screwdriver = registry.createItem("Screwdriver") as? Screwdriver
+        val screwdriver = prototypeRegistry.createItem("Screwdriver") as? Screwdriver
         screwdriver?.hasMagnet = false
         assertNotNull(screwdriver)
     }
