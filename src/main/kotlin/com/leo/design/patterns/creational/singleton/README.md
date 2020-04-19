@@ -23,5 +23,7 @@
 ## Notes
 
 Use lazy function to create only one instance
-
+```kotlin
+fun <T> lazy(initializer: () -> T): Lazy<T>
+```
 **By default, the evaluation of lazy properties is synchronized: the value is computed only in one thread, and all threads will see the same value.**
