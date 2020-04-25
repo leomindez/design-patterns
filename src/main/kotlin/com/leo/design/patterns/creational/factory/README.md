@@ -18,6 +18,7 @@
 
 | interface Navigation|
 |----| 
+| + sections |
 | - createSections()|
 
 | Administrator Navigation|
@@ -27,6 +28,8 @@
 | Guess Navigation|
 |----| 
 | - createSections()|
+
+**_All sections above inheritance from Navigation class._** 
 
 | Section |
 |----| 
