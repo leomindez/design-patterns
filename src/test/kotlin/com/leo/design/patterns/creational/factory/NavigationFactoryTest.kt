@@ -8,14 +8,14 @@ internal class NavigationFactoryTest {
 
     @Test
     fun shouldReturnAdminNavigation() {
-        val adminNavigation = NavigationFactory.getNavigation(NavigationTypes.ADMIN)
+        val adminNavigation = NavigationFactory.getNavigation(ProfileType.ADMIN)
         assertNotNull(adminNavigation)
         assertSame(adminNavigation.sections.size,3)
     }
 
     @Test
     fun shouldReturnGuessNavigation() {
-        val guessNavigation = NavigationFactory.getNavigation(NavigationTypes.GUESS)
+        val guessNavigation = NavigationFactory.getNavigation(ProfileType.GUESS)
         assertNotNull(guessNavigation)
         assertSame(guessNavigation.sections.size,1)
     }
