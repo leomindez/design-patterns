@@ -21,10 +21,10 @@ The project structure is:
 * [Builder](https://github.com/leomindez/design-patterns/tree/master/src/main/kotlin/com/leo/design/patterns/creational/builder)
 * [Prototype](https://github.com/leomindez/design-patterns/tree/master/src/main/kotlin/com/leo/design/patterns/creational/prototype)
 * [Factory](https://github.com/leomindez/design-patterns/tree/master/src/main/kotlin/com/leo/design/patterns/creational/factory)
-* [Abstract Factory]()
+* [Abstract Factory](https://github.com/leomindez/design-patterns/tree/master/src/main/kotlin/com/leo/design/patterns/creational/abstractfactory)
 
 All the implementations are based on: 
-* [Desing Patterns, Elements of reusable Object-Oriented software](https://www.amazon.com/Design-Patterns-Elements-Reusable-Object-Oriented/dp/0201633612)
+* [Design Patterns, Elements of reusable Object-Oriented software](https://www.amazon.com/Design-Patterns-Elements-Reusable-Object-Oriented/dp/0201633612)
 * [Design Patterns in Java: Creational](https://app.pluralsight.com/library/courses/design-patterns-java-creational/table-of-contents)
 * [Design Patterns in Java: Behavioral by Bryan Hansen](https://app.pluralsight.com/library/courses/design-patterns-java-behavioral/table-of-contents)
 
